@@ -1,0 +1,13 @@
+Banco crud --
+CREATE TABLE Usuarios (
+    Id SERIAL PRIMARY KEY,
+    UsuarioObj TEXT
+);
+
+
+Banco chave --
+CREATE TABLE chaves (
+    Id SERIAL PRIMARY KEY,
+    IdUsuario INTEGER,
+    ChaveDecodificar TEXT
+);
